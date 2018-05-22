@@ -17,7 +17,8 @@ module.exports = merge(base, {
     output: {
         path: path.resolve(__dirname, '../../assets'),
         filename: '[name].[chunkhash].bundle.js',
-        chunkFilename: '[name].[chunkhash].bundle.js'
+        chunkFilename: '[name].[chunkhash].bundle.js',
+        publicPath: '/assets/'
     },
     mode: 'production',
     optimization: {
