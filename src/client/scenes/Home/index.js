@@ -19,7 +19,7 @@ export default class extends React.Component {
                                 </h1>
                             </header>
                             <p>
-                                Hello, my name's Rick. I'm a web developer from Chicago. I design, build, and operate web applications.
+                                Hello, my name's Rick. I'm a web developer from Chicago.<br/>I design, build, and operate web applications.
                             </p>
                         </div>
                         <div className={styles.contact}>
