@@ -1,17 +1,12 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import cookieParser from 'cookie-parser'
-// import morgan from 'morgan'
+
 import path from 'path'
 
 import routes from './routes'
 
 const app = express()
-
-// if(process.env.NODE_ENV === "development") {
-//     app.use(express.static(path.resolve(__dirname, '../../build', 'public')))
-//     app.use(morgan('dev'))
-// }
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))

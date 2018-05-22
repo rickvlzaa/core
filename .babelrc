@@ -2,8 +2,10 @@
     "presets": ["env", "react", "stage-2"],
     "plugins": [[
         "transform-runtime", {
+            "helpers": false,
             "polyfill": false,
-            "regenerator": true
+            "regenerator": true,
+            "moduleName": "babel-runtime"
         }
     ]]
 }
