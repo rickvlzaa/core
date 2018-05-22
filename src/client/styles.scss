@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(62, 57, 104);
+    font-family: 'Karla', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+article, header, section, footer, aside, main, nav {
+    display: block;
+}
+
+.site {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+
+    .navigate {
+        background: rgb(236, 241, 255);
+        flex: 1;
+        padding-left: 65px;
+        padding-top: 20px;
+    }
+
+    .content {
+        background: rgb(247, 253, 255);
+        flex: 3;
+        padding: 20px;
+    }
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('../fonts/Karla/Karla-Regular.ttf') format('ttf');
+    font-style: normal;
+
+}
