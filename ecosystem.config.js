@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: 'CORE',
+        name: 'CORE_MICROS',
         script: './index.js',
     }],
     deploy: {
